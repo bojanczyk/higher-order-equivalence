@@ -1,0 +1,63 @@
+############################
+# LaTeX build artifacts
+############################
+# Core aux files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+main.pdf
+
+# BibTeX / Biber
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Index, glossary, nomenclature
+*.idx
+*.ilg
+*.ind
+*.ist
+*.acr
+*.acn
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+
+# Beamer / listings / minted / tikz externalization
+*.nav
+*.snm
+*.vrb
+_minted*/
+*.pyg
+*-converted-to.pdf
+
+# Other common intermediates
+*.dvi
+*.xdv
+*.lot
+*.lof
+*.thm
+*.kaux
+*.diagnose
+
+############################
+# OS / editor cruft
+############################
+.DS_Store
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# VS Code workspace
+.vscode/
