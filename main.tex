@@ -164,7 +164,8 @@ Although we hope that the program is self-explanatory, we explain its subroutine
     \begin{align*}
     \mathtt{all} : (T \times T \to \Bool) \to (T \times T)^* \to \Bool,
     \end{align*}
-    which tells us if all windows in a given list satisfy some predicate. This function can be implemented in the polyregular $\lambda$-calculus, by simulating unbounded Boolean conjunction via list concatenation~\cite[p.~89]{bojanczykPolyregularFunctions2018}.
+    which tells us if all windows in a given list satisfy some predicate. This function can be implemented in the polyregular $\lambda$-calculus, by filtering out all the true elements
+    and checking if the remaining list is empty~\cite[p.~89]{bojanczykPolyregularFunctions2018}.
     
     \item The last component we need to explain is the functions 
     \begin{align*}
